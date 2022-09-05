@@ -1,0 +1,374 @@
+.topnav {
+    overflow: hidden;
+}
+
+.search-img {
+    padding-top: 8px;
+}
+
+.topnav input[type=text] {
+    float: left;
+    padding: 6px;
+    border: 1px solid rgb(133, 130, 126);
+    border-radius: 30px;
+    margin-top: 8px;
+    margin-right: 5px;
+    font-size: 17px;
+}
+
+.topnav input[type=text] {
+    border: 1px solid #ccc;
+}
+
+.container {
+    /* background-color:rgb(114, 185, 197); */
+    max-width: 1500px;
+    margin: auto;
+}
+
+.upper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-btn {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.fa-bell {
+    color: rgb(4, 87, 134);
+    padding-right: 10px;
+    padding-top: 5px;
+}
+
+.fa-bell:hover {
+    transition: 0.4s;
+    color: #EDB1A8;
+    cursor: pointer;
+}
+
+#subscribe {
+    font-family: Inter, sans-serif;
+    font-size: var(--fs-base);
+    line-height: 1.8;
+    text-decoration: none;
+    color: rgb(71, 149, 212);
+    padding-top: 8px;
+    padding-right: 10px;
+}
+
+#subscribe:hover {
+    text-decoration: wavy;
+    color: rgb(100, 55, 143);
+    letter-spacing: 3px;
+    transform: scale(1.1);
+}
+
+#sum-img:hover {
+    transition: 0.9s;
+}
+
+#logo {
+    padding-left: 5px;
+
+}
+
+#blog {
+    height: 180px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(to right, rgb(238, 177, 167), rgb(71, 149, 212));
+    border-radius: 7px;
+}
+
+.my_blog {
+    /* background-image: inherit; */
+    /* text-align:left; */
+    margin-left: 95px;
+    font-size: 38px;
+    color: azure;
+    font-family: Arial;
+    margin-bottom: 0px;
+}
+
+.isim {
+    color: rgb(4, 87, 134);
+}
+
+.city {
+    font-family: Arial;
+    font-size: 20px;
+    color: aliceblue;
+
+}
+
+#pattern {
+    transform: translateX(140%);
+    opacity: .1;
+
+}
+
+#profil-photo {
+    border-radius: 200px 15px 15px 200px;
+
+}
+
+#button {
+
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+
+
+}
+
+.buttons {
+    border: 3px solid rgb(73, 137, 221);
+    text-decoration: none;
+    border-radius: 30px;
+    min-width: 10rem;
+    text-align: center;
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.buttons:hover {
+    color: rgb(100, 55, 143);
+    cursor: pointer;
+    background: rgb(238, 177, 167);
+    transform: scale(1.1);
+
+}
+
+.line {
+    height: 30px;
+    background-image: linear-gradient(to right, rgb(238, 177, 167), rgb(71, 149, 212));
+    border-radius: 5px;
+}
+
+.hero-section {
+    height: 30px;
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.art-course {
+    display: flex;
+    justify-content: space-between;
+}
+
+.articles {
+    font-family: Inter, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(17, 66, 68);
+}
+
+.my-courses {
+    font-family: Inter, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(17, 66, 68);
+    padding-right: 50px;
+}
+
+.blog-card-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-head {
+    font-family: arial;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(44, 15, 4);
+    padding-top: 6px;
+}
+
+.blog-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.blogs {
+    border: 2px solid rgb(26, 23, 23);
+    padding: 10px;
+    max-width: 350px;
+    min-height: 350px;
+    display: grid;
+    text-align: center, end;
+    vertical-align: bottom;
+}
+
+.blogs:hover{
+    transition: 0.4s;
+    transform: scale(1.2);
+}
+
+.blog-head {
+    font-family: arial;
+    font-weight: bold;
+    color: #e0dd0d;
+
+}
+
+.blog-head:hover {
+    text-decoration: underline;
+}
+
+.fa-file-lines {
+    color: rgb(35, 35, 114);
+    padding-right: 5px;
+}
+
+.fa-file-lines:hover {
+    transition: 0.4s;
+    color: #0fe2ad;
+    cursor: pointer;
+}
+
+#blog-one {
+    /* background-image: url("blog-1.jpg"); */
+    background-image: linear-gradient(to top, rgb(238, 177, 167), rgb(71, 149, 212));
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#blog-two {
+    /* background-image: url("blog-2.jpg"); */
+    background-image: linear-gradient(to top, rgb(238, 177, 167), rgb(71, 149, 212));
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#blog-three {
+    /* background-image: url("blog-3.jpg"); */
+    background-image: linear-gradient(to top, rgb(238, 177, 167), rgb(71, 149, 212));
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#blog-four {
+    background-image: url("blog-4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.all-list {
+    font-family: arial;
+    font-weight: bold;
+    color: azure;
+}
+
+p {
+    color: azure;
+    font-family: 'Segoe UI', Tahoma;
+    text-align: justify;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.fa-heart {
+    color: rgb(250, 245, 244);
+    vertical-align: bottom;
+
+}
+
+.fa-heart:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+    color: rgb(197, 40, 40);
+
+}
+
+p:first-letter {
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.latest {
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(17, 66, 68);
+}
+
+.latest-post {
+    display: flex;
+    justify-content: between;
+    gap: 20px;
+    border: 2px solid white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px #504a4a;
+    min-height: 300px;
+    max-width: 1460px;
+    padding: 12px;
+
+
+}
+
+#latest-img {
+    background-color: #F7DF1D;
+    border-radius: 15px;
+}
+
+.scale {
+    border: 2px solid gray;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px gray;
+    max-width: 100px;
+    max-height: 30px;
+    padding-top: 5px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.scale:hover {
+    background-color: rgb(54, 52, 52);
+    cursor: pointer;
+}
+
+.haveyou {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
+
+.webs {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+}
+
+#writer-img {
+    border-radius: 100px;
+    padding-top: 12px;
+}
+
+.last-blok {
+    display: flex;   
+    justify-content: start;
+    align-items: center;
+    gap: 45px;
+}
+
+.isim-son {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #504a4a;
+}
+
+.datetime {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    color: #504a4a;
+}
